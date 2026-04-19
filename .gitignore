@@ -1,0 +1,85 @@
+# ===== Visual Studio / MFC .gitignore =====
+
+# Build results
+
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM/
+ARM64/
+
+# Visual Studio cache / user files
+
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IntelliSense
+
+ipch/
+*.aps
+*.ncb
+*.opendb
+
+# MFC specific
+
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+
+# Build logs
+
+*.log
+*.tlog/
+
+# Windows image / resource build
+
+*.res
+*.obj
+
+# Auto generated files
+
+*.tmp
+*.cache
+*.bak
+
+# CMake (혹시 쓸 경우)
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Ninja (혹시 쓸 경우)
+
+.ninja_deps
+.ninja_log
+build.ninja
+
+# OS files
+
+Thumbs.db
+.DS_Store
+
+# Packages (NuGet)
+
+packages/
+*.nupkg
+
+# Others
+
+*.exe
+*.dll
+*.lib
+*.exp
